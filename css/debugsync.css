@@ -1,0 +1,21 @@
+ 	.li-item:hover{
+           background-color: #888;
+           font-size: 2em;
+           height: 40px;
+           
+           vertical-align:middle;
+    }
+    .li-item:nth-child(odd){
+        background-color: #876;
+    }
+   /*----------------------------------------------------------*/
+
+    .li-item:nth-child(even){
+		background-color: #083;
+    }
+    .li-item{
+    	background-color: #fff;
+    	font-size:1.5em;
+    	height:30px;
+
+    }
