@@ -9,13 +9,8 @@ fs.watch('/', {persistent:true,recursive:true,encoding:'utf8'}, function(eventTy
     console.log(res);
 })
 
-fs.watchFile('./test.html', (curr, prev) => {
-  console.log(`the current mtime is: ${curr.mtime}`);
-  console.log(`the previous mtime was: ${prev.mtime}`);
-});
+// fs.watchFile('./test.html', (curr, prev) => {
+//   console.log(`the current mtime is: ${curr.mtime}`);
+//   console.log(`the previous mtime was: ${prev.mtime}`);
+// });
 
-// fs.watch('./watch.html', {persistent:true,recursive:true,encoding:'utf8'}, function(eventType,fileName){
-//     console.log(eventType);
-//     console.log(fileName);
-
-// })
